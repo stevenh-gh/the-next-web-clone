@@ -62,3 +62,9 @@ nav {
     width: 100%;
     padding: 96px 0 32px;
 }
+
+footer {
+    height: 560px;
+    width: 100%;
+    padding: 64px 0;
+}
