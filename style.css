@@ -19,7 +19,7 @@ nav {
     margin-top: 56px;
     padding-top: 32px;
     width: 100vw;
-    height: calc(100vw * 1.05606258148631);
+    height: calc(100vw * calc(810 / 767));
 }
 
 .showcase-article {
