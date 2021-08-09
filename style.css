@@ -35,8 +35,6 @@ nav>svg {
     margin-top: 56px;
     padding-top: 32px;
     width: 100vw;
-    /* display: flex; */
-    /* overflow-x: scroll; */
 }
 
 .showcase-header>svg {
@@ -51,8 +49,19 @@ nav>svg {
     margin-bottom: 16px;
 }
 
+.showcase-header>.flex {
+    display: flex;
+    /* flex-basis: 85vw; */
+    gap: 12px;
+    overflow-x: scroll;
+    scroll-snap-type: inline;
+}
 
-/* .showcase-header>div {} */
+.showcase-header>.flex>div {
+    min-width: 638px;
+    min-height: 637px;
+    scroll-snap-align: center;
+}
 
 .showcase-article {
     width: 100vw;
