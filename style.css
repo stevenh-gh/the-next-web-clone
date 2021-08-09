@@ -15,6 +15,22 @@ nav {
     top: 0;
 }
 
+nav>img {
+    width: 48px;
+    height: 56px;
+    object-fit: cover;
+    object-position: -18% 16px;
+    position: absolute;
+    left: 0;
+}
+
+nav>svg {
+    width: 66px;
+    height: 16px;
+    position: relative;
+    top: 20px;
+}
+
 .showcase-header {
     margin-top: 56px;
     padding-top: 32px;
