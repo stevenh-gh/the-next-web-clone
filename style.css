@@ -35,11 +35,24 @@ nav>svg {
     margin-top: 56px;
     padding-top: 32px;
     width: 100vw;
-    display: flex;
-    overflow-x: scroll;
+    /* display: flex; */
+    /* overflow-x: scroll; */
 }
 
-.showcase-header>div {}
+.showcase-header>svg {
+    width: 349px;
+    height: 87px;
+    display: block;
+    margin: auto;
+}
+
+.showcase-header>h1 {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+
+/* .showcase-header>div {} */
 
 .showcase-article {
     width: 100vw;
