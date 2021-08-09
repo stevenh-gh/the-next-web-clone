@@ -29,43 +29,43 @@ nav {
 }
 
 .popular-articles {
-    height: 560px;
-    width: 100%;
+    width: 100vw;
+    height: calc(100vw * calc(390 / 767));
     padding: 48px 0;
 }
 
 .latest-stories {
-    height: 1126px;
-    width: 100%;
+    width: 100vw;
+    height: calc(100vw * calc(1818 / 767));
     padding: 64px 0;
 }
 
 .explore-channels {
-    height: 322px;
-    width: 100%;
+    width: 100vw;
+    height: calc(100vw * calc(332 / 767));
     padding: 64px 0;
 }
 
 .newsletter {
-    width: 286px;
-    height: 256px;
+    width: calc(100vw - 128px);
+    height: calc(calc(100vw - 128px) * calc(208 / 639));
     padding: 64px;
 }
 
 .watch {
-    height: 639px;
-    width: 100%;
+    width: 100vw;
+    height: calc(100vw * calc(837 / 767));
     padding: 64px 0;
 }
 
 .work-with-us {
-    height: 1145px;
-    width: 100%;
+    width: 100vw;
+    height: calc(100vw * calc(1434 / 767));
     padding: 96px 0 32px;
 }
 
 footer {
-    height: 560px;
-    width: 100%;
+    width: 100vw;
+    height: calc(100vw * calc(536 / 767));
     padding: 64px 0;
 }
