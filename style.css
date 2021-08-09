@@ -19,53 +19,48 @@ nav {
     margin-top: 56px;
     padding-top: 32px;
     width: 100vw;
-    height: calc(100vw * calc(810 / 767));
+    display: flex;
+    overflow-x: scroll;
 }
+
+.showcase-header>div {}
 
 .showcase-article {
     width: 100vw;
-    height: calc(100vw * calc(218 / 767));
     padding: 16px 0;
 }
 
 .popular-articles {
     width: 100vw;
-    height: calc(100vw * calc(390 / 767));
     padding: 48px 0;
 }
 
 .latest-stories {
     width: 100vw;
-    height: calc(100vw * calc(1818 / 767));
     padding: 64px 0;
 }
 
 .explore-channels {
     width: 100vw;
-    height: calc(100vw * calc(332 / 767));
     padding: 64px 0;
 }
 
 .newsletter {
     width: calc(100vw - 128px);
-    height: calc(calc(100vw - 128px) * calc(208 / 639));
     padding: 64px;
 }
 
 .watch {
     width: 100vw;
-    height: calc(100vw * calc(837 / 767));
     padding: 64px 0;
 }
 
 .work-with-us {
     width: 100vw;
-    height: calc(100vw * calc(1434 / 767));
     padding: 96px 0 32px;
 }
 
 footer {
     width: 100vw;
-    height: calc(100vw * calc(536 / 767));
     padding: 64px 0;
 }
