@@ -36,6 +36,8 @@ nav>svg {
     margin-top: 56px;
     padding-top: 32px;
     width: 100vw;
+    /* background: linear-gradient(gray, white 5%); */
+    background: linear-gradient(180deg, rgba(115, 115, 115, 0.15) 0%, rgba(255, 255, 255, 1) 2%);
 }
 
 .showcase-header>svg {
