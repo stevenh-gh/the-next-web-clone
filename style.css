@@ -38,8 +38,8 @@ nav>svg {
 }
 
 .showcase-header>svg {
-    width: 349px;
-    height: 87px;
+    max-width: 349px;
+    max-height: 87px;
     display: block;
     margin: auto;
 }
