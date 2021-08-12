@@ -1,11 +1,17 @@
 /* breakpoints: 768px, 1024px */
 
+
+/* todo: BEM naming */
+
 * {
     box-sizing: content-box;
     margin: 0;
     padding: 0;
     outline: 1px solid red;
 }
+
+
+/* todo: style fonts */
 
 nav {
     width: calc(100vw - 48px);
@@ -32,6 +38,9 @@ nav>svg {
     position: relative;
     top: 20px;
 }
+
+
+/* todo: style fonts */
 
 .showcase-header {
     margin-top: 56px;
@@ -96,6 +105,12 @@ nav>svg {
     margin-bottom: 4px;
 }
 
+
+/* todo: style fonts */
+
+
+/* fixme: centering */
+
 .showcase-article {
     width: 100vw;
     padding: 16px 0;
@@ -125,6 +140,9 @@ nav>svg {
     border-radius: 1.5rem;
     text-transform: uppercase;
 }
+
+
+/* todo: style fonts */
 
 .popular-articles {
     width: 100vw;
