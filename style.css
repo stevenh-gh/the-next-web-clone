@@ -131,6 +131,26 @@ nav>svg {
     padding: 48px 0;
 }
 
+.popular-articles>h3 {
+    text-align: center;
+}
+
+.popular-articles>.grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(5, auto);
+    row-gap: 10px;
+}
+
+.popular-articles>.grid>span {
+    text-align: right;
+    font-size: 38px;
+}
+
+.popular-articles>.grid>h4 {
+    padding: 0 16px;
+}
+
 .latest-stories {
     width: 100vw;
     padding: 64px 0;
