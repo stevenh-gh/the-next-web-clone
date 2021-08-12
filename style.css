@@ -139,7 +139,7 @@ nav>svg {
     display: grid;
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(5, auto);
-    row-gap: 10px;
+    row-gap: 15px;
 }
 
 .popular-articles>.grid>span {
@@ -147,8 +147,9 @@ nav>svg {
     font-size: 38px;
 }
 
-.popular-articles>.grid>h4 {
+.popular-articles>.grid h4 {
     padding: 0 16px;
+    width: fit-content;
 }
 
 .latest-stories {
