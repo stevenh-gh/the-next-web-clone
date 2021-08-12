@@ -162,6 +162,32 @@ nav>svg {
     padding: 64px 0;
 }
 
+.latest-stories>.ls-flex {
+    display: flex;
+    padding: 16px;
+}
+
+
+/* todo: fix img container */
+
+.latest-stories>.ls-flex>.img {
+    max-width: 180px;
+    max-height: 180px;
+    min-width: 180px;
+    min-height: 180px;
+}
+
+.latest-stories>.ls-flex>.img>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.latest-stories>.ls-flex>.heading {
+    width: 100%;
+}
+
 .latest-stories>h2 {
     text-transform: capitalize;
     font-size: 28px;
