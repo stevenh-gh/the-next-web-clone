@@ -129,10 +129,14 @@ nav>svg {
 .popular-articles {
     width: 100vw;
     padding: 48px 0;
+    background: #f7f8f8;
 }
 
 .popular-articles>h3 {
     text-align: center;
+    font-size: 32px;
+    margin-bottom: 32px;
+    text-transform: uppercase;
 }
 
 .popular-articles>.grid {
@@ -150,6 +154,7 @@ nav>svg {
 .popular-articles>.grid h4 {
     padding: 0 16px;
     width: fit-content;
+    font-size: 16px;
 }
 
 .latest-stories {
