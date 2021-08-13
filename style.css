@@ -259,6 +259,23 @@ nav>svg {
     font-weight: bold;
 }
 
+.explore-channels>.channels-container {
+    padding: 32px 16px;
+    display: flex;
+    overflow-x: scroll;
+    gap: 16px;
+    scroll-snap-type: inline;
+}
+
+.explore-channels>.channels-container>.channels {
+    min-height: 192px;
+    min-width: 184px;
+    /* max-height: 192px; */
+    /* max-width: 184px; */
+    padding: 32px 16px;
+    scroll-snap-align: center;
+}
+
 .newsletter {
     width: calc(100vw - 128px);
     padding: 64px;
