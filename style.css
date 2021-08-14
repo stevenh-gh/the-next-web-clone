@@ -328,6 +328,18 @@ nav>svg {
 .newsletter {
     width: calc(100vw - 128px);
     padding: 64px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.newsletter>h2 {
+    margin-bottom: 16px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.newsletter>p {
+    font-size: 1rem;
 }
 
 .watch {
