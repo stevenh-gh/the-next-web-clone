@@ -292,6 +292,14 @@ nav>svg {
     height: 54px;
 }
 
+.channels>img {
+    width: 120px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
 .channels:first-child {
     background: url(https://img-cdn.tnwcdn.com/image?fit=260%2C235&url=https%3A%2F%2Fnext.tnwcdn.com%2Fassets%2Fnext%2Fimg%2Fbackdrop-s-plugged.jpg&signature=4423a77a45ff6281a089424a8dd0bc24) no-repeat;
     background-size: cover;
