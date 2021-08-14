@@ -330,6 +330,11 @@ nav>svg {
     padding: 64px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    background: url(https://next.tnwcdn.com/assets/next/img/spacesbg.png) no-repeat, black;
+    background-size: cover;
+    background-position: 50% center;
+    color: white;
+    background-attachment: fixed;
 }
 
 .newsletter>h2 {
@@ -350,6 +355,9 @@ nav>svg {
     left: 0;
     right: 0;
 }
+
+
+/* fixme: little space between input and button should be closed */
 
 .newsletter>.input>input[type="text"] {
     width: 545px;
