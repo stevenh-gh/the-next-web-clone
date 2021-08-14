@@ -348,6 +348,9 @@ nav>svg {
     margin: 19px;
 }
 
+
+/* fixme: fix input's absolute position */
+
 .newsletter>.input {
     width: 100vh;
     margin: auto;
@@ -382,6 +385,21 @@ nav>svg {
     font-size: 0.875rem;
     color: #a7aab2;
     border-radius: 2px;
+}
+
+.newsletter>ul {
+    width: 264px;
+    height: 24px;
+    display: block;
+}
+
+.newsletter>ul>li {
+    display: inline-block;
+}
+
+.newsletter svg {
+    width: 24px;
+    height: 24px;
 }
 
 .watch {
