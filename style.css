@@ -456,6 +456,7 @@ nav>svg {
 
 .watch__showcaseItem {
     scroll-snap-align: center;
+    padding: 8px;
 }
 
 .watch__showcaseImg {
@@ -466,6 +467,9 @@ nav>svg {
 .watch__showcaseTitle {
     padding-top: 8px;
     display: block;
+    font-size: 0.875rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .work-with-us {
