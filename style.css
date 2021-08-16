@@ -442,13 +442,21 @@ nav>svg {
     color: white;
 }
 
+.watch__videoDate {
+    color: #a7aab2;
+    font-size: 0.750rem;
+}
+
 .watch__showcase {
     padding: 8px 16px;
 }
 
-.watch__videoDate {
-    color: #a7aab2;
-    font-size: 0.750rem;
+.watch__showcaseItem {}
+
+.watch__showcaseImg {}
+
+.watch__showcaseTitle {
+    padding-top: 8px;
 }
 
 .work-with-us {
