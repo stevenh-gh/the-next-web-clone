@@ -431,6 +431,10 @@ nav>svg {
     height: 56.25vw;
 }
 
+.watch__videoHeadingSection {
+    background: black;
+}
+
 .work-with-us {
     width: 100vw;
     padding: 96px 0 32px;
