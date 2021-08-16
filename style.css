@@ -488,6 +488,10 @@ nav>svg {
     margin-bottom: 16px;
 }
 
+.workWithUs__message {
+    margin: 24px 0 42px;
+}
+
 footer {
     width: 100vw;
     padding: 64px 0;
