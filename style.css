@@ -415,6 +415,7 @@ nav>svg {
 .watch {
     width: 100vw;
     padding: 64px 0;
+    background: #f7f8f8;
 }
 
 .watch__heading {
