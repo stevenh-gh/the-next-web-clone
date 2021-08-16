@@ -419,6 +419,10 @@ nav>svg {
 
 .watch__heading {
     margin-bottom: 32px;
+    font-size: 1.750rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 .work-with-us {
