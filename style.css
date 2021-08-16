@@ -434,6 +434,17 @@ nav>svg {
 .watch__videoHeadingSection {
     background: black;
     padding: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.watch__videoHeader {
+    font-size: 1rem;
+    color: white;
+}
+
+.watch__videoDate {
+    color: #a7aab2;
+    font-size: 0.750rem;
 }
 
 .work-with-us {
