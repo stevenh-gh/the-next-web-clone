@@ -426,6 +426,11 @@ nav>svg {
     text-align: center;
 }
 
+.watch__video {
+    width: 100vw;
+    height: 56.25vw;
+}
+
 .work-with-us {
     width: 100vw;
     padding: 96px 0 32px;
