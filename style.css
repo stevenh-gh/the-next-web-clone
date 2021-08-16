@@ -382,18 +382,21 @@ nav>svg {
 }
 
 .newsletter>ul {
-    width: 264px;
-    height: 24px;
     display: block;
+    margin: auto;
+    margin-bottom: 8px;
 }
 
 .newsletter>ul>li {
     display: inline-block;
+    margin-right: 15px;
 }
 
 .newsletter svg {
     width: 24px;
     height: 24px;
+    fill: lightgray;
+    opacity: 50%;
 }
 
 .watch {
