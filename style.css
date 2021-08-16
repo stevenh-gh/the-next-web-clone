@@ -475,9 +475,13 @@ nav>svg {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.work-with-us {
+.workWithUs {
     width: 100vw;
     padding: 96px 0 32px;
+}
+
+.workWithUs__smallHeading {
+    margin-bottom: 8px;
 }
 
 footer {
