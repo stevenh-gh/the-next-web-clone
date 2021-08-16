@@ -417,6 +417,10 @@ nav>svg {
     padding: 64px 0;
 }
 
+.watch__heading {
+    margin-bottom: 32px;
+}
+
 .work-with-us {
     width: 100vw;
     padding: 96px 0 32px;
