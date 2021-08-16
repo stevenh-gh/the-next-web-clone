@@ -442,6 +442,10 @@ nav>svg {
     color: white;
 }
 
+.watch__showcase {
+    padding: 8px 16px;
+}
+
 .watch__videoDate {
     color: #a7aab2;
     font-size: 0.750rem;
