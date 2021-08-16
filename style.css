@@ -458,10 +458,14 @@ nav>svg {
     scroll-snap-align: center;
 }
 
-.watch__showcaseImg {}
+.watch__showcaseImg {
+    max-width: 208px;
+    min-width: 117px;
+}
 
 .watch__showcaseTitle {
     padding-top: 8px;
+    display: block;
 }
 
 .work-with-us {
