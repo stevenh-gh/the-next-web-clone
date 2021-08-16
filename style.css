@@ -348,15 +348,17 @@ nav>svg {
     margin: 19px;
 }
 
+
+/* fixme: small gap between input items */
+
 .newsletter>.input {
     width: 100%;
     margin-bottom: 16px;
     padding-bottom: 19px;
-    white-space: nowrap;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0;
 }
-
-
-/* fixme: little space between input and button should be closed */
 
 .newsletter>.input>input[type="text"] {
     width: 545px;
@@ -378,6 +380,17 @@ nav>svg {
     background: white;
     font-size: 0.875rem;
     color: #a7aab2;
+    border-radius: 2px;
+}
+
+.newsletter>.input>.mail {
+    width: 40px;
+    height: 48px;
+    display: inline-block;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 2px;
 }
 
