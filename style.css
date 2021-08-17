@@ -547,6 +547,11 @@ nav>svg {
     padding: 0 24px;
 }
 
+.footer__svgLogo {
+    width: 160px;
+    height: 39px;
+}
+
 .footer__bottom {
     margin-top: 32px;
     padding: 32px 24px 0;
