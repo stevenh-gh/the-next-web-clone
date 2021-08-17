@@ -515,7 +515,11 @@ nav>svg {
     height: 96px;
 }
 
-.workWithUs__programHeading {}
+.workWithUs__programHeading {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 16px;
+}
 
 footer {
     width: 100vw;
