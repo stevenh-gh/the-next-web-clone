@@ -502,7 +502,17 @@ nav>svg {
     font-size: 1.125rem;
 }
 
-.workWithUs__btn {}
+.workWithUs__btn {
+    padding: 0 24px;
+    font-size: 0.813rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    background: #00cccc;
+    border: none;
+    border-radius: .25rem;
+    height: 48px;
+}
 
 .workWithUs__grid {
     display: grid;
