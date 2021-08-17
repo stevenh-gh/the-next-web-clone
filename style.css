@@ -552,6 +552,8 @@ nav>svg {
     height: 39px;
 }
 
+.footer__tagline {}
+
 .footer__bottom {
     margin-top: 32px;
     padding: 32px 24px 0;
