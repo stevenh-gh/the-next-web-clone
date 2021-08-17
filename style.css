@@ -504,6 +504,17 @@ nav>svg {
 
 .workWithUs__btn {}
 
+.workWithUs__grid {}
+
+.workWithUs__program {}
+
+.workWithUs__programImg {
+    width: 96px;
+    height: 96px;
+}
+
+.workWithUs__programHeading {}
+
 footer {
     width: 100vw;
     padding: 64px 0;
