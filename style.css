@@ -543,6 +543,11 @@ nav>svg {
     background: black;
 }
 
-.footer__top {}
+.footer__top {
+    padding: 0 24px;
+}
 
-.footer__bottom {}
+.footer__bottom {
+    margin-top: 32px;
+    padding: 32px 24px 0;
+}
