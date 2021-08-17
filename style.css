@@ -506,7 +506,9 @@ nav>svg {
 
 .workWithUs__grid {}
 
-.workWithUs__program {}
+.workWithUs__program {
+    border: 16px solid white;
+}
 
 .workWithUs__programImg {
     width: 96px;
