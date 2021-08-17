@@ -563,6 +563,12 @@ nav>svg {
 
 .footer__tagline {}
 
+.footer__flexContainer {}
+
+.footer__flexLeft {}
+
+.footer__flexRight {}
+
 .footer__bottom {
     margin-top: 32px;
     padding: 32px 24px 0;
