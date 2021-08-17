@@ -394,18 +394,27 @@ nav>svg {
     border-radius: 2px;
 }
 
-.newsletter>ul {
+
+/* .newsletter>ul { */
+
+.socMedia {
     display: block;
     margin: auto;
     margin-bottom: 8px;
 }
 
-.newsletter>ul>li {
+
+/* .newsletter>ul>li { */
+
+.socMedia__item {
     display: inline-block;
     margin-right: 15px;
 }
 
-.newsletter svg {
+
+/* .newsletter svg { */
+
+.socMedia__itemSvg {
     width: 24px;
     height: 24px;
     fill: lightgray;
