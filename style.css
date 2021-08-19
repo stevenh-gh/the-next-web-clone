@@ -10,9 +10,6 @@
     outline: 1px solid red;
 }
 
-
-/* todo: style fonts */
-
 nav {
     width: calc(100vw - 48px);
     height: 56px;
@@ -39,9 +36,6 @@ nav>svg {
     top: 20px;
 }
 
-
-/* todo: style fonts */
-
 .showcase-header {
     margin-top: 56px;
     padding-top: 32px;
@@ -55,14 +49,16 @@ nav>svg {
     max-height: 87px;
     display: block;
     margin: auto;
+    margin-bottom: 16px;
 }
-
-
-/* todo: style header */
 
 .showcase-header>h1 {
     text-align: center;
     margin-bottom: 16px;
+    font-size: 1.125rem;
+    color: #505666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
 }
 
 .showcase-header>.flex {
@@ -106,10 +102,18 @@ nav>svg {
 .showcase-header>.flex .img-header h6,
 .showcase-header>.flex .img-header h4 {
     margin-bottom: 4px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+.showcase-header>.flex .img-header h6 {
+    font-size: 0.750rem;
+    text-transform: uppercase;
+}
 
-/* todo: style fonts */
+.showcase-header>.flex .img-header h4 {
+    font-size: 1.250rem;
+    font-weight: bold;
+}
 
 
 /* fixme: centering */
@@ -144,20 +148,26 @@ nav>svg {
     text-transform: uppercase;
 }
 
-
-/* todo: style fonts */
+.showcase-article h2 {
+    margin-bottom: 4px;
+    font-size: 1.250rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .popular-articles {
     width: 100vw;
     padding: 48px 0;
     background: #f7f8f8;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .popular-articles>h3 {
     text-align: center;
-    font-size: 32px;
     margin-bottom: 32px;
+    font-size: 2rem;
     text-transform: uppercase;
+    color: #a7aab2;
 }
 
 .popular-articles>.grid {
@@ -169,13 +179,15 @@ nav>svg {
 
 .popular-articles>.grid>span {
     text-align: right;
-    font-size: 38px;
+    font-size: 2.375rem;
+    color: #cc0099;
 }
 
 .popular-articles>.grid h4 {
     padding: 0 16px;
     width: fit-content;
-    font-size: 16px;
+    font-size: 1rem;
+    font-weight: 500;
 }
 
 .latest-stories {
