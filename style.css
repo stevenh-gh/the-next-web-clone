@@ -475,11 +475,11 @@ nav>svg {
     font-size: 0.750rem;
 }
 
-
-/* fixme: scrolling item eats into padding? */
-
 .watch__showcase {
     padding: 8px 16px;
+}
+
+.watch__showcasePlaylist {
     display: flex;
     overflow-x: scroll;
     scroll-snap-type: inline;
