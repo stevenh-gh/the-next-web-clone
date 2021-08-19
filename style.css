@@ -602,4 +602,17 @@ nav>svg {
 .footer__bottom {
     margin-top: 32px;
     padding: 32px 24px 0;
+    color: #a7aab2;
+    text-align: center;
+    border-top: 1px solid gray;
+}
+
+.footer__statement {
+    height: 24px;
+    font-size: 0.875rem;
+}
+
+.footer__keyword {
+    color: white;
+    font-weight: 600;
 }
