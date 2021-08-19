@@ -242,9 +242,6 @@ nav>svg {
     text-align: center;
 }
 
-
-/* fixme: btn right side doesn't look right */
-
 .latest-stories>.wrapper>.btn>button {
     text-transform: uppercase;
     width: 100%;
@@ -254,6 +251,7 @@ nav>svg {
     border: 1px solid gray;
     border-radius: 1.5rem;
     font-size: 0.813rem;
+    box-sizing: border-box;
 }
 
 .latest-stories>.wrapper {
