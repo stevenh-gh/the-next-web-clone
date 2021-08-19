@@ -568,17 +568,36 @@ nav>svg {
     font-size: 1.500rem;
 }
 
-.footer__flexContainer {}
+.footer__flexContainer {
+    display: flex;
+}
 
-.footer__flexHeading {}
+.footer__flexHeading {
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    font-size: 1.500rem;
+}
 
-.footer__flexList {}
+.footer__flexList {
+    color: #00cccc;
+    text-transform: capitalize;
+    font-size: 1rem;
+    list-style: none;
+}
 
-.footer__flexListItem {}
+.footer__flexListItem {
+    height: 28px;
+}
 
-.footer__flexLeft {}
+.footer__flexLeft {
+    padding-left: 12px;
+    flex-grow: 1;
+}
 
-.footer__flexRight {}
+.footer__flexRight {
+    flex-grow: 1;
+}
 
 .footer__bottom {
     margin-top: 32px;
