@@ -10,7 +10,7 @@
     outline: 1px solid red;
 }
 
-nav {
+.nav {
     width: calc(100vw - 48px);
     height: 56px;
     padding-left: 48px;
@@ -20,7 +20,7 @@ nav {
     background: white;
 }
 
-nav>img {
+.nav__menuImg {
     width: 48px;
     height: 56px;
     object-fit: cover;
@@ -29,7 +29,7 @@ nav>img {
     left: 0;
 }
 
-nav>svg {
+.nav__logo {
     width: 66px;
     height: 16px;
     position: relative;
