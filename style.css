@@ -702,11 +702,29 @@
     * {
         outline: 1px solid blue;
     }
+    .watch__flex {
+        display: flex;
+        /* fixme: temp height */
+        height: 400px;
+    }
+    .watch__videoWrapper {
+        flex-grow: 1;
+    }
+    .watch__video {
+        height: auto;
+        width: auto;
+    }
+    .watch__videoHeadingSection {
+        width: auto;
+        height: auto;
+    }
     .watch__showcasePlaylist {
+        flex-grow: 1;
         display: flex;
         flex-direction: column;
         overflow-y: scroll;
         scroll-snap-type: block;
+        height: 100%;
     }
 }
 
