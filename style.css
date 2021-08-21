@@ -702,6 +702,12 @@
     * {
         outline: 1px solid blue;
     }
+    .watch__showcasePlaylist {
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+        scroll-snap-type: block;
+    }
 }
 
 
