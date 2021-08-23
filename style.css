@@ -588,10 +588,9 @@
     height: 48px;
 }
 
-.workWithUs__grid {
+.workWithUs__gridTop {
     display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(6, auto);
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .workWithUs__program {
@@ -607,6 +606,12 @@
     font-size: 1rem;
     font-weight: 600;
     margin-top: 16px;
+}
+
+.workWithUs__gridBottom {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(4, auto);
 }
 
 .workWithUs__companyImg {}
