@@ -797,6 +797,9 @@
         text-align: left;
         /* font-family: Arial, Helvetica, sans-serif; */
     }
+    .workWithUs__flex {
+        display: flex;
+    }
     .workWithUs__headingContainer {
         /* margin-bottom: 32px; */
         border: 8px solid white;
