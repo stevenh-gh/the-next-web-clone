@@ -707,6 +707,54 @@
     * {
         outline: 1px solid blue;
     }
+    .exploreChannels {
+        /* width: 100vw;
+        padding: 64px 0;
+        background: #f7f8f8; */
+    }
+    .exploreChannels__heading {
+        /* text-align: center;
+        margin-bottom: 32px;
+        font-size: 1.750rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold; */
+    }
+    .exploreChannels__flexContainer {
+        /* padding: 32px 16px;
+        display: flex;
+        overflow-x: scroll;
+        gap: 16px;
+        scroll-snap-type: inline; */
+    }
+    .exploreChannels__flexItem {
+        /* min-height: 192px;
+        min-width: 184px; */
+        /* max-height: 192px; */
+        /* max-width: 184px; */
+        /* padding: 32px 16px;
+        scroll-snap-align: center;
+        position: relative; */
+    }
+    .exploreChannels__flexHeading {
+        /* text-align: center;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        position: absolute;
+        bottom: 32px;
+        left: 16px;
+        right: 16px;
+        height: 54px; */
+    }
+    .exploreChannels__flexImg {
+        /* width: 120px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto; */
+    }
+    /* ====================================================================== */
+    /* ====================================================================== */
     .watch {
         /* width: 100vw; */
         padding: 96px 64px;
