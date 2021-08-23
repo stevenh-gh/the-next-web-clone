@@ -818,6 +818,7 @@
     .workWithUs__message {
         /* margin: 24px 0 42px; */
         /* font-size: 1.125rem; */
+        line-height: 1.5;
     }
     .workWithUs__btn {
         /* padding: 0 24px;
