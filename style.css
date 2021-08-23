@@ -798,6 +798,9 @@
     }
     .workWithUs__headingContainer {
         /* margin-bottom: 32px; */
+        border: 8px solid white;
+        margin: 0;
+        padding-right: 24px;
     }
     .workWithUs__smallHeading {
         /* margin-bottom: 8px; */
