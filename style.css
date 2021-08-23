@@ -733,6 +733,7 @@
         overflow-x: scroll;
         gap: 16px;
         scroll-snap-type: inline; */
+        margin-left: -24px;
     }
     .exploreChannels__flexItem {
         /* min-height: 192px;
@@ -781,7 +782,6 @@
     }
     .watch__flex {
         /* display: flex; */
-        /* fixme: temp height */
         /* height: 400px; */
         display: grid;
         grid-template-columns: repeat(2, 1fr);
