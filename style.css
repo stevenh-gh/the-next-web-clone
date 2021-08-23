@@ -775,6 +775,9 @@
     .latestStories__btnContainer {
         /* text-align: center;
         position: relative; */
+        margin: auto;
+        margin-top: 56px;
+        width: fit-content;
     }
     .latestStories__btn {
         /* text-transform: uppercase;
@@ -786,6 +789,7 @@
         border-radius: 1.5rem;
         font-size: 0.813rem;
         box-sizing: border-box; */
+        width: fit-content;
     }
     .latestStories__btnArrow {
         /* width: 0.625rem;
