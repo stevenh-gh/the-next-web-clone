@@ -838,6 +838,8 @@
     .workWithUs__program {
         /* border: 16px solid white; */
         text-align: center;
+        height: 152px;
+        min-width: 140px;
     }
     .workWithUs__programImg {
         /* width: 96px;
