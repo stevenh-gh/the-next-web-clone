@@ -713,6 +713,9 @@
         background: #f7f8f8; */
         padding: 96px 0;
     }
+    .exploreChannels__wrapper {
+        padding: 0 64px;
+    }
     .exploreChannels__heading {
         /* text-align: center;
         margin-bottom: 32px;
