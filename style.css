@@ -1084,12 +1084,17 @@
         /* text-align: center;
         height: 152px;
         min-width: 140px; */
+        display: flex;
+        min-width: fit-content;
+        height: auto;
+        width: auto;
     }
     .workWithUs__programImg {
         /* width: 96px;
         height: 96px; */
         /* width: 112px;
         height: 112px; */
+        width: min-content;
     }
     .workWithUs__programHeading {
         /* font-size: 1rem;
@@ -1098,6 +1103,8 @@
         margin-top: 0;
         margin-left: 16px;
         font-size: 1.125rem;
+        height: fit-content;
+        align-self: center;
     }
     .workWithUs__gridBottom {
         /* display: grid;
