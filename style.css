@@ -1095,6 +1095,9 @@
         /* font-size: 1rem;
         font-weight: 600;
         margin-top: 16px; */
+        margin-top: 0;
+        margin-left: 16px;
+        font-size: 1.125rem;
     }
     .workWithUs__gridBottom {
         /* display: grid;
