@@ -1110,6 +1110,8 @@
         /* display: grid;
         grid-template-columns: repeat(2, auto);
         grid-template-rows: repeat(4, auto); */
+        margin: 64px 0 32px;
+        padding: 0 32px;
     }
     .workWithUs__companyImg {}
     /* ====================================================================== */
