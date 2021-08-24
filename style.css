@@ -1045,6 +1045,7 @@
     .footer__topWrapper {
         /* border: 12px solid black; */
         flex-grow: 1;
+        position: relative;
     }
     .footer__svgLogo {
         /* width: 160px;
@@ -1054,6 +1055,10 @@
         /* margin-bottom: 32px;
         color: white;
         font-size: 1.500rem; */
+    }
+    .socMedia--footerBottom {
+        position: absolute;
+        bottom: 0;
     }
     .footer__flexContainer {
         /* display: flex; */
