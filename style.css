@@ -1112,6 +1112,8 @@
         grid-template-rows: repeat(4, auto); */
         margin: 64px 0 32px;
         padding: 0 32px;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: auto;
     }
     .workWithUs__companyImg {}
     /* ====================================================================== */
