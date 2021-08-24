@@ -1039,6 +1039,7 @@
     }
     .footer__top {
         /* padding: 0 24px; */
+        padding: 0 32px;
     }
     .footer__topWrapper {
         /* border: 12px solid black; */
@@ -1073,6 +1074,7 @@
     .footer__flexLeft {
         /* padding-left: 12px;
         flex-grow: 1; */
+        padding: 0;
     }
     .footer__flexRight {
         /* flex-grow: 1; */
