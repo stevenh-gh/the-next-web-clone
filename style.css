@@ -1063,10 +1063,11 @@
         scroll-snap-type: inline; */
         /* margin-left: -24px; */
         /* margin: 0; */
-        margin: unset;
         overflow-x: unset;
         scroll-snap-type: unset;
         justify-content: space-between;
+        margin: -24px 0;
+        padding: 32px 0;
     }
     .exploreChannels__flexItem {
         /* min-height: 192px;
