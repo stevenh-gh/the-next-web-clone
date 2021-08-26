@@ -1057,6 +1057,9 @@
     .latestStories__gridContainer {
         /* display: grid;
         grid-template-columns: repeat(2, 1fr); */
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        margin: -16px;
     }
     .latestStories__flex {
         /* display: flex;
@@ -1076,6 +1079,12 @@
         min-width: none;
         min-height: none;
         margin: 0; */
+        max-width: unset;
+        max-height: unset;
+        min-width: unset;
+        min-height: unset;
+        width: unset;
+        height: unset;
     }
     .latestStories__flexImg {
         /* width: 100%;
