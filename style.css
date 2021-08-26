@@ -1036,6 +1036,7 @@
         padding: 48px 0;
         background: #f7f8f8;
         font-family: Arial, Helvetica, sans-serif; */
+        padding: 64px 0;
     }
     .popularArticles__header {
         /* text-align: center;
@@ -1043,12 +1044,15 @@
         font-size: 2rem;
         text-transform: uppercase;
         color: #a7aab2; */
+        margin-bottom: 64px;
     }
     .popularArticles__grid {
         /* display: grid;
         grid-template-columns: repeat(2, auto);
         grid-template-rows: repeat(5, auto);
         row-gap: 15px; */
+        padding: 0 48px;
+        margin: 24px;
     }
     .popularArticles__gridSpan {
         /* text-align: right;
