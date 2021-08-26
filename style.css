@@ -1066,6 +1066,7 @@
         margin: unset;
         overflow-x: unset;
         scroll-snap-type: unset;
+        justify-content: space-between;
     }
     .exploreChannels__flexItem {
         /* min-height: 192px;
@@ -1076,6 +1077,8 @@
         scroll-snap-align: center;
         position: relative; */
         scroll-snap-align: unset;
+        min-width: unset;
+        flex-grow: 1;
     }
     .exploreChannels__flexHeading {
         /* text-align: center;
