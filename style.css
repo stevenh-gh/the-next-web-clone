@@ -1046,6 +1046,7 @@
         color: #a7aab2; */
         margin-bottom: 64px;
     }
+    /* fixme: maybe it's too short here? */
     .popularArticles__grid {
         /* display: grid;
         grid-template-columns: repeat(2, auto);
@@ -1053,6 +1054,8 @@
         row-gap: 15px; */
         padding: 0 48px;
         margin: 24px;
+        grid-template-columns: repeat(5, min-content 1fr);
+        grid-template-rows: unset;
     }
     .popularArticles__gridSpan {
         /* text-align: right;
