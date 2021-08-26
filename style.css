@@ -1031,6 +1031,97 @@
     }
     /* ====================================================================== */
     /* ====================================================================== */
+    .latestStories {
+        /* width: 100vw;
+        padding: 64px 0;
+        font-family: Arial, Helvetica, sans-serif; */
+        /* padding: 96px 0; */
+    }
+    .latestStories__wrapper {
+        /* padding: 0 24px; */
+        /* padding: 0 64px; */
+    }
+    .latestStories__heading {
+        /* text-transform: capitalize;
+        font-size: 1.750rem;
+        margin-bottom: 32px;
+        text-align: center; */
+        /* font-size: 2.500rem;
+        margin-bottom: 48px;
+        text-align: left;
+        font-weight: 800; */
+    }
+    .latestStories__gridContainer {
+        /* display: grid;
+        grid-template-columns: repeat(2, 1fr); */
+    }
+    .latestStories__flex {
+        /* display: flex;
+        padding: 16px; */
+        /* display: block;
+        padding: 0;
+        border: 16px solid white; */
+    }
+    .latestStories__flexImgContainer {
+        /* max-width: 180px;
+        max-height: 180px;
+        min-width: 180px;
+        min-height: 180px;
+        margin-right: 24px; */
+        /* max-width: none;
+        max-height: none;
+        min-width: none;
+        min-height: none;
+        margin: 0; */
+    }
+    .latestStories__flexImg {
+        /* width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 100%; */
+        /* border-radius: 0; */
+    }
+    .latestStories__flexHeadingContainer {
+        /* width: 100%; */
+    }
+    .latestStories__flexHeading {
+        /* font-size: 1rem;
+        font-weight: bold; */
+    }
+    .latestStories__flexTime {
+        /* font-size: 0.750rem;
+        padding-top: 4px;
+        color: #a7aab2; */
+        /* font-size: 0.875rem; */
+    }
+    .latestStories__btnContainer {
+        /* text-align: center;
+        position: relative; */
+        /* margin: auto;
+        margin-top: 56px;
+        width: fit-content; */
+    }
+    .latestStories__btn {
+        /* text-transform: uppercase;
+        width: 100%;
+        padding: 0 38px 0 24px;
+        min-height: 48px;
+        background: none;
+        border: 1px solid gray;
+        border-radius: 1.5rem;
+        font-size: 0.813rem;
+        box-sizing: border-box; */
+        /* width: fit-content; */
+    }
+    .latestStories__btnArrow {
+        /* width: 0.625rem;
+        height: 1rem;
+        position: absolute;
+        top: 15px;
+        right: 15px; */
+    }
+    /* ====================================================================== */
+    /* ====================================================================== */
     .exploreChannels {
         /* width: 100vw;
         padding: 64px 0;
