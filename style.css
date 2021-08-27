@@ -1039,6 +1039,10 @@
         top: 0;
         z-index: 2;
         background: white; */
+        padding: unset;
+        display: flex;
+        align-items: center;
+        width: 100vw;
     }
     .nav__menuImg {
         /* width: 48px;
@@ -1047,12 +1051,15 @@
         object-position: -18% 16px;
         position: absolute;
         left: 0; */
+        display: none;
     }
     .nav__logo {
         /* width: 66px;
         height: 16px;
         position: relative;
         top: 20px; */
+        padding: 16px 0;
+        top: unset;
     }
     /* ====================================================================== */
     /* ====================================================================== */
