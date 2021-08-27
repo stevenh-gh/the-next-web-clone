@@ -1038,7 +1038,10 @@
     }
     .showcaseHeader__headerContainer {
         margin-bottom: 32px;
-        padding: 19px 0;
+        padding: 19px 32px;
+        display: flex;
+        align-items: center;
+        height: 211px;
     }
     .showcaseHeader__logo {
         /* max-width: 349px;
@@ -1048,6 +1051,9 @@
         margin-bottom: 16px; */
         max-width: 14.500rem;
         max-height: 3.500rem;
+        padding: 16px 0;
+        margin: unset;
+        margin-right: auto;
     }
     .showcaseHeader__tagline {
         /* text-align: center;
