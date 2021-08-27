@@ -39,6 +39,14 @@
     top: 20px;
 }
 
+.nav__list {
+    display: none;
+}
+
+.nav__mail {
+    display: none;
+}
+
 
 /* ========================================================================== */
 
@@ -1043,6 +1051,7 @@
         display: flex;
         align-items: center;
         width: 100vw;
+        justify-content: space-between;
     }
     .nav__menuImg {
         /* width: 48px;
@@ -1060,6 +1069,23 @@
         top: 20px; */
         padding: 16px 0;
         top: unset;
+        margin-left: 25px;
+    }
+    .nav__list {
+        display: unset;
+    }
+    .nav__menu {
+        display: inline-block;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.875rem;
+        padding: 3px 12px 0;
+    }
+    .nav__mail {
+        display: block;
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
     }
     /* ====================================================================== */
     /* ====================================================================== */
