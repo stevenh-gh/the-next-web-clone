@@ -1029,6 +1029,33 @@
     * {
         outline: 1px solid green;
     }
+    /* ====================================================================== */
+    /* ====================================================================== */
+    .nav {
+        /* width: calc(100vw - 48px);
+        height: 56px;
+        padding-left: 48px;
+        position: fixed;
+        top: 0;
+        z-index: 2;
+        background: white; */
+    }
+    .nav__menuImg {
+        /* width: 48px;
+        height: 56px;
+        object-fit: cover;
+        object-position: -18% 16px;
+        position: absolute;
+        left: 0; */
+    }
+    .nav__logo {
+        /* width: 66px;
+        height: 16px;
+        position: relative;
+        top: 20px; */
+    }
+    /* ====================================================================== */
+    /* ====================================================================== */
     .showcaseHeader {
         /* margin-top: 56px;
         padding-top: 32px;
