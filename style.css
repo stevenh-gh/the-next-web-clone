@@ -1036,12 +1036,18 @@
         /* background: linear-gradient(gray, white 5%); */
         /* background: linear-gradient(180deg, rgba(115, 115, 115, 0.15) 0%, rgba(255, 255, 255, 1) 2%); */
     }
+    .showcaseHeader__headerContainer {
+        margin-bottom: 32px;
+        padding: 19px 0;
+    }
     .showcaseHeader__logo {
         /* max-width: 349px;
         max-height: 87px;
         display: block;
         margin: auto;
         margin-bottom: 16px; */
+        max-width: 14.500rem;
+        max-height: 3.500rem;
     }
     .showcaseHeader__tagline {
         /* text-align: center;
@@ -1050,6 +1056,7 @@
         color: #505666;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: 500; */
+        font-size: 2rem;
     }
     .showcaseHeader__flex {
         /* display: flex; */
