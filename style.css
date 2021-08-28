@@ -47,6 +47,10 @@
     display: none;
 }
 
+.navMessage {
+    display: none;
+}
+
 
 /* ========================================================================== */
 
@@ -1087,6 +1091,20 @@
         height: 20px;
         margin-right: 10px;
     }
+    .navMessage {
+        width: 100vw;
+        height: 42px;
+        background: #ffdd33;
+        margin-top: 56px;
+        display: flex;
+        align-items: center;
+    }
+    .navMessage__message {
+        padding: 0 24px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.813rem;
+        width: 100%;
+    }
     /* ====================================================================== */
     /* ====================================================================== */
     .showcaseHeader {
@@ -1095,6 +1113,7 @@
         width: 100vw; */
         /* background: linear-gradient(gray, white 5%); */
         /* background: linear-gradient(180deg, rgba(115, 115, 115, 0.15) 0%, rgba(255, 255, 255, 1) 2%); */
+        margin: unset;
     }
     .showcaseHeader__headerContainer {
         margin-bottom: 32px;
