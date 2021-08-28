@@ -743,6 +743,8 @@
         grid-template-rows: repeat(4, 1fr);
         grid-template-areas: "header1 header1" "header1 header1" "header2 article" "header3 header4";
         grid-gap: 10px;
+        padding: 0 64px;
+        box-sizing: border-box;
     }
     .showcaseHeader__flexItem {
         min-width: unset;
@@ -759,6 +761,9 @@
     }
     .showcaseHeader__flexItem:nth-of-type(3) {
         grid-area: header3;
+    }
+    .showcaseHeader__flexItem:nth-of-type(4) {
+        grid-area: header4;
     }
     .showcaseArticle {
         width: auto;
@@ -1145,7 +1150,46 @@
     /* ====================================================================== */
     /* ====================================================================== */
     .showcaseHeader__flex--displayNone {
-        display: none;
+        /* display: none; */
+    }
+    .showcaseHeader__grid {
+        /* display: grid;
+        width: 100vw;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas: "header1 header1" "header1 header1" "header2 article" "header3 header4";
+        grid-gap: 10px;
+        padding: 0 64px;
+        box-sizing: border-box; */
+        grid-template-columns: 2fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: "header1 header2 header3" "header1 header4 header4" "article header4 header4";
+        padding: 0 32px;
+    }
+    .showcaseHeader__flexItem {
+        /* min-width: unset;
+        min-height: unset;
+        height: auto;
+        width: auto; */
+    }
+    .showcaseHeader__flexImg {}
+    .showcaseHeader__flexItem:first-of-type {
+        /* grid-area: header1; */
+    }
+    .showcaseHeader__flexItem:nth-of-type(2) {
+        /* grid-area: header2; */
+    }
+    .showcaseHeader__flexItem:nth-of-type(3) {
+        /* grid-area: header3; */
+    }
+    .showcaseHeader__flexItem:nth-of-type(4) {
+        /* grid-area: header4; */
+    }
+    .showcaseArticle {
+        /* width: auto;
+        height: auto;
+        grid-area: article;
+        margin: unset; */
     }
     .showcaseHeader {
         /* margin-top: 56px;
