@@ -2,7 +2,7 @@
     box-sizing: content-box;
     margin: 0;
     padding: 0;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 
@@ -718,7 +718,7 @@
 
 @media screen and (min-width: 768px) {
     * {
-        outline: 1px solid blue;
+        /* outline: 1px solid blue; */
     }
     .showcaseHeader__flex--displayNone {
         display: none;
@@ -902,7 +902,7 @@
 
 @media screen and (min-width: 1024px) {
     * {
-        outline: 1px solid green;
+        /* outline: 1px solid green; */
     }
     /* ====================================================================== */
     /* ====================================================================== */
